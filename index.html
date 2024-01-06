@@ -24,6 +24,17 @@
           <a href="./index.html" class="logo"
             >Web<span class="logo-header">Studio</span></a
           >
+
+          <button
+            class="burger_menu"
+            type="button"
+            aria-label="open menu button"
+          >
+            <svg class="icon-burger_menu" width="24" height="24">
+              <use href="./images/icons.svg#icon-burger_menu"></use>
+            </svg>
+          </button>
+
           <ul class="nav-list">
             <li><a href="./index.html" class="nav-link active">Studio</a></li>
             <li><a href="" class="nav-link">Portfolio</a></li>
@@ -65,8 +76,8 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="heading">Strategy</h3>
-              <p class="text">
+              <h3 class="advantages-heading">Strategy</h3>
+              <p class="advantages-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -77,8 +88,8 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="heading">Punctuality</h3>
-              <p class="text">
+              <h3 class="advantages-heading">Punctuality</h3>
+              <p class="advantages-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
@@ -89,8 +100,8 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="heading">Diligence</h3>
-              <p class="text">
+              <h3 class="advantages-heading">Diligence</h3>
+              <p class="advantages-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
@@ -101,8 +112,8 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="heading">Technologies</h3>
-              <p class="text">
+              <h3 class="advantages-heading">Technologies</h3>
+              <p class="advantages-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -113,11 +124,12 @@
       <!--Section team-->
       <section class="team-page section">
         <div class="container">
-          <h2 class="section-title">Our Team</h2>
+          <h2 class="section-title team-title">Our Team</h2>
           <ul class="team-card">
             <li class="member">
               <img
-                src="./images/Prod_design.jpg"
+                srcset="./images/prod-des@1x.jpg, ./images/prod-des@2x.jpg"
+                src="./images/prod-des@1x.jpg"
                 alt="Product designer"
                 width="264"
                 height="260"
@@ -160,7 +172,8 @@
             </li>
             <li class="member">
               <img
-                src="./images/frontend_dev.jpg"
+                srcset="./images/frontend@1x.jpg, ./images/frontend@2x.jpg"
+                src="./images/frontend@1x.jpg"
                 alt="Frontend developer"
                 width="264"
                 height="260"
@@ -203,7 +216,8 @@
             </li>
             <li class="member">
               <img
-                src="./images/marketing.jpg"
+                srcset="./images/marketing@1x.jpg, ./images/marketing@2x.jpg"
+                src="./images/marketing@1x.jpg"
                 alt="Marketing"
                 width="264"
                 height="260"
@@ -246,7 +260,8 @@
             </li>
             <li class="member">
               <img
-                src="./images/UI_design.jpg"
+                srcset="./images/ui-des@1x.jpg, ./images/ui-des@2x.jpg"
+                src="./images/ui-des@1x.jpg"
                 alt="UI designer"
                 width="264"
                 height="260"
@@ -298,7 +313,11 @@
             <li class="portfolio">
               <div class="overlay-relative">
                 <img
-                  src="./images/img_portfolio/img1.jpg"
+                  srcset="
+                    ./images/img_portfolio/img-1desk@1x.jpg,
+                    ./images/img_portfolio/img-1desk@2x.jpg
+                  "
+                  src="./images/img_portfolio/img-1desk@1x.jpg"
                   alt="Bank App"
                   width="360"
                   height="300"
@@ -318,7 +337,11 @@
             <li class="portfolio">
               <div class="overlay-relative">
                 <img
-                  src="./images/img_portfolio/img2.jpg"
+                  srcset="
+                    ./images/img_portfolio/img-2desk@1x.jpg,
+                    ./images/img_portfolio/img-2desk@2x.jpg
+                  "
+                  src="./images/img_portfolio/img-2desk@1x.jpg"
                   alt="Payment with a phone"
                   width="360"
                   height="300"
@@ -338,7 +361,11 @@
             <li class="portfolio">
               <div class="overlay-relative">
                 <img
-                  src="./images/img_portfolio/img3.jpg"
+                  srcset="
+                    ./images/img_portfolio/img-3desk@1x.jpg,
+                    ./images/img_portfolio/img-3desk@2x.jpg
+                  "
+                  src="./images/img_portfolio/img-3desk@1x.jpg"
                   alt="Meditation App for laptop and phone"
                   width="360"
                   height="300"
@@ -358,7 +385,11 @@
             <li class="portfolio">
               <div class="overlay-relative">
                 <img
-                  src="./images/img_portfolio/img4.jpg"
+                  srcset="
+                    ./images/img_portfolio/img-4desk@1x.jpg,
+                    ./images/img_portfolio/img-4desk@2x.jpg
+                  "
+                  src="./images/img_portfolio/img-4desk@1x.jpg"
                   alt="Taxi driver"
                   width="360"
                   height="300"
@@ -378,7 +409,11 @@
             <li class="portfolio">
               <div class="overlay-relative">
                 <img
-                  src="./images/img_portfolio/img5.jpg"
+                  srcset="
+                    ./images/img_portfolio/img-5desk@1x.jpg,
+                    ./images/img_portfolio/img-5desk@2x.jpg
+                  "
+                  src="./images/img_portfolio/img-5desk@1x.jpg"
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
@@ -398,7 +433,11 @@
             <li class="portfolio">
               <div class="overlay-relative">
                 <img
-                  src="./images/img_portfolio/img6.jpg"
+                  srcset="
+                    ./images/img_portfolio/img-6desk@1x.jpg,
+                    ./images/img_portfolio/img-6desk@2x.jpg
+                  "
+                  src="./images/img_portfolio/img-6desk@1x.jpg"
                   alt="Girl with headphones"
                   width="360"
                   height="300"
@@ -432,7 +471,7 @@
           </p>
         </div>
         <div class="footer-socials-div">
-          <p class="footer-text">Social media</p>
+          <p class="footer-caption">Social media</p>
           <ul class="footer-socials">
             <li class="socials-items socials-footer">
               <a href="" class="social-link-footer">
@@ -468,7 +507,7 @@
         <div class="footer-wrapper">
           <p class="wrapper-caption">Subscribe</p>
           <form class="subscribe-form" name="subscribe">
-            <label class="subscribe-form-field">
+            <label class="subscribe-form-label">
               <input
                 type="email"
                 placeholder="E-mail"
@@ -486,8 +525,10 @@
         </div>
       </div>
     </footer>
+
     <!--Modal window-->
-    <div class="backdrop is-open">
+
+    <div class="backdrop is-open hide">
       <div class="modal">
         <button class="modal-btn" type="button" aria-label="Modal close button">
           <svg class="close-icon" width="8" height="8">
@@ -553,28 +594,119 @@
               placeholder="Text input"
             ></textarea>
           </div>
-        
-        
+
           <div class="form-agreement">
-              <input
-            id="user-privacy"
-            type="checkbox"
-            name="user-privacy"
-            value="true"
-            class="checkbox visually-hidden"/>
+            <input
+              id="user-privacy"
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+              class="checkbox visually-hidden"
+            />
             <label for="user-privacy" class="agreement-checkbox">
-            <span class="form-agreement-checkbox">
-             <svg class="icon-checked" height="8" width="10">
-                <use href="./images/icons.svg#icon-checked"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a href="" class="privacy-police">Privacy Policy</a></label>
+              <span class="form-agreement-checkbox">
+                <svg class="icon-checked" height="8" width="10">
+                  <use href="./images/icons.svg#icon-checked"></use>
+                </svg>
+              </span>
+              <div class="agreement-text">
+                I accept the terms and conditions of the
+                <a href="" class="privacy-police">Privacy Policy</a>
+              </div>
+            </label>
           </div>
-        
-        <button type="submit" class="submit-btn">Send</button>
+
+          <button type="submit" class="submit-btn">Send</button>
         </form>
       </div>
     </div>
-    </body>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+      <button class="menu-btn" type="button">
+        <svg class="icon-close" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link current" href="">Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="">Portfolio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="">Contacts</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-menu-contacts">
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-contact accent" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-contact" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="socials mobile-menu-socials">
+        <li class="socials-items">
+          <a
+            class="social-link"
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram site"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials-items">
+          <a
+            class="social-link"
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Twitter site"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials-items">
+          <a
+            class="social-link"
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook site"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials-items">
+          <a
+            class="social-link"
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook site"
+          >
+            <svg class="social-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
