@@ -215,7 +215,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg@1x.jpg);
+    url(../images/hero/hero-bg@1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -229,7 +229,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-bg@2x.jpg);
+      url(../images/hero/hero-bg@2x.jpg);
   }
 }
 @media only screen and (min-width: 768px) {
@@ -244,7 +244,7 @@ button {
         var(--GREY, rgba(46, 47, 66, 0.7)),
         var(--GREY, rgba(46, 47, 66, 0.7))
       ),
-      url(../images/Dark-bg-tablet@1x.jpg);
+      url(../images/hero/Dark-bg-tablet@1x.jpg);
   }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
@@ -254,7 +254,7 @@ button {
         var(--GREY, rgba(46, 47, 66, 0.7)),
         var(--GREY, rgba(46, 47, 66, 0.7))
       ),
-      url(../images/Dark-bg-tablet@2x.jpg);
+      url(../images/hero/Dark-bg-tablet@2x.jpg);
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -266,7 +266,7 @@ button {
         var(--GREY, rgba(46, 47, 66, 0.7)),
         var(--GREY, rgba(46, 47, 66, 0.7))
       ),
-      url(../images/people-office@1x.jpg);
+      url(../images/hero/people-office@1x.jpg);
   }
 }
 @media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
@@ -276,7 +276,7 @@ button {
         var(--GREY, rgba(46, 47, 66, 0.7)),
         var(--GREY, rgba(46, 47, 66, 0.7))
       ),
-      url(../images/people-office@2x.jpg);
+      url(../images/hero/people-office@2x.jpg);
   }
 }
 .main-title {
@@ -995,8 +995,7 @@ button {
   opacity: 1;
   transform: scale(1);
 }
-.agreement-text {
-}
+
 .privacy-police {
   color: #4d5ae5;
   line-height: 1.33%;
