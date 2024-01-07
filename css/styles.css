@@ -953,12 +953,12 @@ button {
   user-select: none;
 }
 
-.agreement-checkbox {
-  display: inline-flex;
+/*.agreement-checkbox {
+  display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   gap: 8px;
-}
+}*/
 
 .form-agreement-checkbox {
   display: inline-flex;
@@ -973,6 +973,7 @@ button {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   fill: transparent;
+  margin-right: 8px;
 }
 .icon-checked {
   opacity: 0;
