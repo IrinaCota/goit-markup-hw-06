@@ -520,7 +520,6 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   gap: 48px;
-  padding-bottom: 96px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -619,7 +618,7 @@ button {
 
 @media only screen and (min-width: 768px) and (max-width: 1157.98px) {
   .footer-container {
-    padding: 0 108px;
+    max-width: 584px;
   }
 }
 @media only screen and (min-width: 768px) {
